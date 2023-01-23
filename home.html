@@ -123,8 +123,8 @@
    * @param {boolean} isEven whether or not the segmented is even-numbered
    */
   const drawLineSegment = (ctx, x, height, width, isEven) => {
-    ctx.lineWidth = 2; // how thick the line is
-    ctx.strokeStyle = "#fff"; // what color our line is
+    ctx.lineWidth = 4; // how thick the line is
+    ctx.strokeStyle = "#000"; // what color our line is
     ctx.beginPath();
     height = isEven ? height : -height;
     ctx.moveTo(x, 0);
